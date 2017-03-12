@@ -1,6 +1,4 @@
-//
-// Created by mashenjun on 7-3-17.
-//
+
 
 #include "geometry.h"
 

@@ -1,6 +1,4 @@
-//
-// Created by mashenjun on 7-3-17.
-//
+
 #include <tuple>
 #ifndef CGA_SHAPE_POSITION_H
 #define CGA_SHAPE_POSITION_H

@@ -1,6 +1,4 @@
-//
-// Created by mashenjun on 12-3-17.
-//
+
 
 #ifndef CGA_SHAPE_RULE_H
 #define CGA_SHAPE_RULE_H

@@ -1,6 +1,4 @@
-//
-// Created by mashenjun on 11-3-17.
-//
+
 
 #ifndef CGA_SHAPE_Y_IO_2_H
 #define CGA_SHAPE_Y_IO_2_H

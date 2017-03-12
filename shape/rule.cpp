@@ -1,6 +1,4 @@
-//
-// Created by mashenjun on 12-3-17.
-//
+
 #include <string>
 #include "rule.h"
 
