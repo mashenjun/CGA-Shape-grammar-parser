@@ -1,0 +1,4 @@
+/home/mashenjun/Ides/apps/CLion/ch-0/171.3780.24/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/mashenjun/WorkSpace/CGA-Shape-Parser
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mashenjun/WorkSpace/CGA-Shape-Parser/cmake-build-debug

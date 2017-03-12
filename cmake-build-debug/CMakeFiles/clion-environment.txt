@@ -1,0 +1,2 @@
+Options: 
+CMake: 3.7.1@/home/mashenjun/Ides/apps/CLion/ch-0/171.3780.24/bin/cmake/bin/cmake

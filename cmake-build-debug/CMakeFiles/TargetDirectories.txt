@@ -1,0 +1,3 @@
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/cmake-build-debug/CMakeFiles/CGA_Shape.dir

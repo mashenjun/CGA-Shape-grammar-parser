@@ -1,0 +1,30 @@
+1: footprint-->OP-S(1r,building_height,1r) facades
+	OP-T(0,building_height,0) Roof("hipped",roof_angle){ roof }
+2: facades-->Comp("sidefaces"){ facade }
+3: facade : Shape.visible("street")
+	-->OP-Subdiv("X",1r,door_width*1.5){ tiles | entrance } : 0.5
+	-->OP-Subdiv("X",door_width*1.5,1r){ entrance | tiles } : 0.5
+4: facade-->tiles
+5: tiles-->OP-Repeat("X",window_spacing){ tile }
+6: tile-->OP-Subdiv("X",1r,window_width,1r){ wall |
+	OP-Subdiv("Y",2r,window_height,1r){ wall | window | wall } | wall }
+7: window : Scope.occ("noparent") != "none"-->wall
+8: window-->OP-S(1r,1r,window_depth) I("win.obj")
+9: entrance-->OP-Subdiv("X",1r,door_width,1r){ wall |
+	OP-Subdiv("Y",door_height,1r){ door | wall } | wall }
+10: door-->OP-S(1r,1r,door_depth) I("door.obj")
+11: wall-->I("wall.obj")
+12: roof-->Comp("sidefaces"){ covering }
+	Comp("sideedges"){ roofedge } Comp("topedges"){ roofedge }
+13: covering-->
+	OP-Repeat("XY", f latbrick_width,brick_length){ flatbrick }
+	OP-Subdiv("X", f latbrick_width,1r){ e |
+	OP-Repeat("X", f latbrick_width){ roofedge } }
+14: roofedge-->
+	OP-Subdiv("Y",overlap,brick_length-2*overlap,1r){ e |
+	roundbrick | OP-Repeat("Y",brick_length-overlap){ roundbrick } }
+15: flatbrick-->OP-S(1r,1r, flatbrick_height) T(0,0,- flatbrick_height)
+	Rx(-3) I("flatbrick.obj")
+16: roundbrick-->OP-S(roundbrick_w,Scope.sy+overlap,roundbrick_h)
+	OP-T(-roundbrick_w/2,-overlap,-roundbrick_h)
+	Rx(-3) I("roundbrick.obj")
