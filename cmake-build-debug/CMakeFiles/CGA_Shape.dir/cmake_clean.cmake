@@ -8,8 +8,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/CGA_Shape.dir/util/basicSplitRule.cpp.o"
   "CMakeFiles/CGA_Shape.dir/util/repeatRule.cpp.o"
   "CMakeFiles/CGA_Shape.dir/util/componentSplitRule.cpp.o"
-  "CMakeFiles/CGA_Shape.dir/util/generalProcessor.cpp.o"
   "CMakeFiles/CGA_Shape.dir/shape/rule.cpp.o"
+  "CMakeFiles/CGA_Shape.dir/shape/workflow.cpp.o"
+  "CMakeFiles/CGA_Shape.dir/util/generalRule.cpp.o"
+  "CMakeFiles/CGA_Shape.dir/util/createShape.cpp.o"
+  "CMakeFiles/CGA_Shape.dir/util/nestedBasicSplitRule.cpp.o"
   "CGA_Shape.pdb"
   "CGA_Shape"
 )

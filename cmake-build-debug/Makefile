@@ -285,6 +285,33 @@ shape/terminalShape.cpp.s:
 	$(MAKE) -f CMakeFiles/CGA_Shape.dir/build.make CMakeFiles/CGA_Shape.dir/shape/terminalShape.cpp.s
 .PHONY : shape/terminalShape.cpp.s
 
+shape/workflow.o: shape/workflow.cpp.o
+
+.PHONY : shape/workflow.o
+
+# target to build an object file
+shape/workflow.cpp.o:
+	$(MAKE) -f CMakeFiles/CGA_Shape.dir/build.make CMakeFiles/CGA_Shape.dir/shape/workflow.cpp.o
+.PHONY : shape/workflow.cpp.o
+
+shape/workflow.i: shape/workflow.cpp.i
+
+.PHONY : shape/workflow.i
+
+# target to preprocess a source file
+shape/workflow.cpp.i:
+	$(MAKE) -f CMakeFiles/CGA_Shape.dir/build.make CMakeFiles/CGA_Shape.dir/shape/workflow.cpp.i
+.PHONY : shape/workflow.cpp.i
+
+shape/workflow.s: shape/workflow.cpp.s
+
+.PHONY : shape/workflow.s
+
+# target to generate assembly for a file
+shape/workflow.cpp.s:
+	$(MAKE) -f CMakeFiles/CGA_Shape.dir/build.make CMakeFiles/CGA_Shape.dir/shape/workflow.cpp.s
+.PHONY : shape/workflow.cpp.s
+
 util/basicSplitRule.o: util/basicSplitRule.cpp.o
 
 .PHONY : util/basicSplitRule.o
@@ -339,32 +366,86 @@ util/componentSplitRule.cpp.s:
 	$(MAKE) -f CMakeFiles/CGA_Shape.dir/build.make CMakeFiles/CGA_Shape.dir/util/componentSplitRule.cpp.s
 .PHONY : util/componentSplitRule.cpp.s
 
-util/generalProcessor.o: util/generalProcessor.cpp.o
+util/createShape.o: util/createShape.cpp.o
 
-.PHONY : util/generalProcessor.o
+.PHONY : util/createShape.o
 
 # target to build an object file
-util/generalProcessor.cpp.o:
-	$(MAKE) -f CMakeFiles/CGA_Shape.dir/build.make CMakeFiles/CGA_Shape.dir/util/generalProcessor.cpp.o
-.PHONY : util/generalProcessor.cpp.o
+util/createShape.cpp.o:
+	$(MAKE) -f CMakeFiles/CGA_Shape.dir/build.make CMakeFiles/CGA_Shape.dir/util/createShape.cpp.o
+.PHONY : util/createShape.cpp.o
 
-util/generalProcessor.i: util/generalProcessor.cpp.i
+util/createShape.i: util/createShape.cpp.i
 
-.PHONY : util/generalProcessor.i
+.PHONY : util/createShape.i
 
 # target to preprocess a source file
-util/generalProcessor.cpp.i:
-	$(MAKE) -f CMakeFiles/CGA_Shape.dir/build.make CMakeFiles/CGA_Shape.dir/util/generalProcessor.cpp.i
-.PHONY : util/generalProcessor.cpp.i
+util/createShape.cpp.i:
+	$(MAKE) -f CMakeFiles/CGA_Shape.dir/build.make CMakeFiles/CGA_Shape.dir/util/createShape.cpp.i
+.PHONY : util/createShape.cpp.i
 
-util/generalProcessor.s: util/generalProcessor.cpp.s
+util/createShape.s: util/createShape.cpp.s
 
-.PHONY : util/generalProcessor.s
+.PHONY : util/createShape.s
 
 # target to generate assembly for a file
-util/generalProcessor.cpp.s:
-	$(MAKE) -f CMakeFiles/CGA_Shape.dir/build.make CMakeFiles/CGA_Shape.dir/util/generalProcessor.cpp.s
-.PHONY : util/generalProcessor.cpp.s
+util/createShape.cpp.s:
+	$(MAKE) -f CMakeFiles/CGA_Shape.dir/build.make CMakeFiles/CGA_Shape.dir/util/createShape.cpp.s
+.PHONY : util/createShape.cpp.s
+
+util/generalRule.o: util/generalRule.cpp.o
+
+.PHONY : util/generalRule.o
+
+# target to build an object file
+util/generalRule.cpp.o:
+	$(MAKE) -f CMakeFiles/CGA_Shape.dir/build.make CMakeFiles/CGA_Shape.dir/util/generalRule.cpp.o
+.PHONY : util/generalRule.cpp.o
+
+util/generalRule.i: util/generalRule.cpp.i
+
+.PHONY : util/generalRule.i
+
+# target to preprocess a source file
+util/generalRule.cpp.i:
+	$(MAKE) -f CMakeFiles/CGA_Shape.dir/build.make CMakeFiles/CGA_Shape.dir/util/generalRule.cpp.i
+.PHONY : util/generalRule.cpp.i
+
+util/generalRule.s: util/generalRule.cpp.s
+
+.PHONY : util/generalRule.s
+
+# target to generate assembly for a file
+util/generalRule.cpp.s:
+	$(MAKE) -f CMakeFiles/CGA_Shape.dir/build.make CMakeFiles/CGA_Shape.dir/util/generalRule.cpp.s
+.PHONY : util/generalRule.cpp.s
+
+util/nestedBasicSplitRule.o: util/nestedBasicSplitRule.cpp.o
+
+.PHONY : util/nestedBasicSplitRule.o
+
+# target to build an object file
+util/nestedBasicSplitRule.cpp.o:
+	$(MAKE) -f CMakeFiles/CGA_Shape.dir/build.make CMakeFiles/CGA_Shape.dir/util/nestedBasicSplitRule.cpp.o
+.PHONY : util/nestedBasicSplitRule.cpp.o
+
+util/nestedBasicSplitRule.i: util/nestedBasicSplitRule.cpp.i
+
+.PHONY : util/nestedBasicSplitRule.i
+
+# target to preprocess a source file
+util/nestedBasicSplitRule.cpp.i:
+	$(MAKE) -f CMakeFiles/CGA_Shape.dir/build.make CMakeFiles/CGA_Shape.dir/util/nestedBasicSplitRule.cpp.i
+.PHONY : util/nestedBasicSplitRule.cpp.i
+
+util/nestedBasicSplitRule.s: util/nestedBasicSplitRule.cpp.s
+
+.PHONY : util/nestedBasicSplitRule.s
+
+# target to generate assembly for a file
+util/nestedBasicSplitRule.cpp.s:
+	$(MAKE) -f CMakeFiles/CGA_Shape.dir/build.make CMakeFiles/CGA_Shape.dir/util/nestedBasicSplitRule.cpp.s
+.PHONY : util/nestedBasicSplitRule.cpp.s
 
 util/repeatRule.o: util/repeatRule.cpp.o
 
@@ -447,15 +528,24 @@ help:
 	@echo "... shape/terminalShape.o"
 	@echo "... shape/terminalShape.i"
 	@echo "... shape/terminalShape.s"
+	@echo "... shape/workflow.o"
+	@echo "... shape/workflow.i"
+	@echo "... shape/workflow.s"
 	@echo "... util/basicSplitRule.o"
 	@echo "... util/basicSplitRule.i"
 	@echo "... util/basicSplitRule.s"
 	@echo "... util/componentSplitRule.o"
 	@echo "... util/componentSplitRule.i"
 	@echo "... util/componentSplitRule.s"
-	@echo "... util/generalProcessor.o"
-	@echo "... util/generalProcessor.i"
-	@echo "... util/generalProcessor.s"
+	@echo "... util/createShape.o"
+	@echo "... util/createShape.i"
+	@echo "... util/createShape.s"
+	@echo "... util/generalRule.o"
+	@echo "... util/generalRule.i"
+	@echo "... util/generalRule.s"
+	@echo "... util/nestedBasicSplitRule.o"
+	@echo "... util/nestedBasicSplitRule.i"
+	@echo "... util/nestedBasicSplitRule.s"
 	@echo "... util/repeatRule.o"
 	@echo "... util/repeatRule.i"
 	@echo "... util/repeatRule.s"

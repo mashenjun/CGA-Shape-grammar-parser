@@ -9,9 +9,13 @@
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/main.cpp
 iostream
 -
-parser/y_io_2.h
-/home/mashenjun/WorkSpace/CGA-Shape-Parser/parser/y_io_2.h
 stdio.h
+-
+random
+-
+memory
+-
+vector
 -
 direct.h
 -
@@ -19,10 +23,38 @@ unistd.h
 -
 regex
 -
+list
+-
+stack
+-
+queue
+-
 string
 -
 typeinfo
 -
+shape/terminalShape.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/shape/terminalShape.h
+shape/nonterminalShape.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/shape/nonterminalShape.h
+parser/y_io_2.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/parser/y_io_2.h
+shape/workflow.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/shape/workflow.h
+shape/rule.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/shape/rule.h
+util/createShape.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/createShape.h
+util/scopeRule.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/scopeRule.h
+util/basicSplitRule.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/basicSplitRule.h
+util/nestedBasicSplitRule.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/nestedBasicSplitRule.h
+util/componentSplitRule.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/componentSplitRule.h
+util/repeatRule.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/repeatRule.h
 
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/parser/y_io_2.h
 cstdio
@@ -67,6 +99,10 @@ nonterminalShape.h
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/shape/nonterminalShape.h
 terminalShape.h
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/shape/terminalShape.h
+../util/generalRule.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/generalRule.h
+workflow.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/shape/workflow.h
 
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/shape/shape.cpp
 shape.h
@@ -86,33 +122,97 @@ terminalShape.h
 shape.h
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/shape/shape.h
 
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/shape/workflow.cpp
+workflow.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/shape/workflow.h
+
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/shape/workflow.h
+string
+-
+list
+-
+map
+-
+memory
+-
+vector
+-
+../util/generalRule.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/generalRule.h
+
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/basicSplitRule.cpp
 basicSplitRule.h
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/basicSplitRule.h
+createShape.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/createShape.h
 
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/basicSplitRule.h
+vector
+-
+generalRule.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/generalRule.h
 
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/componentSplitRule.cpp
 componentSplitRule.h
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/componentSplitRule.h
 
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/componentSplitRule.h
+generalRule.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/generalRule.h
 
-/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/generalProcessor.cpp
-generalProcessor.h
-/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/generalProcessor.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/createShape.cpp
+createShape.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/createShape.h
 
-/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/generalProcessor.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/createShape.h
+generalRule.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/generalRule.h
+string
+-
+
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/generalRule.cpp
+iostream
+-
+generalRule.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/generalRule.h
+
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/generalRule.h
+string
+-
+map
+-
+
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/nestedBasicSplitRule.cpp
+nestedBasicSplitRule.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/nestedBasicSplitRule.h
+
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/nestedBasicSplitRule.h
+vector
+-
+memory
+-
+generalRule.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/generalRule.h
 
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/repeatRule.cpp
 repeatRule.h
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/repeatRule.h
 
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/repeatRule.h
+vector
+-
+generalRule.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/generalRule.h
 
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/scopeRule.cpp
 scopeRule.h
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/scopeRule.h
 
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/scopeRule.h
+tuple
+-
+../shape/shape.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/shape/shape.h
+generalRule.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/generalRule.h
 

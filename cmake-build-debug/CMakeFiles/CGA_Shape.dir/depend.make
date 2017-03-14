@@ -3,6 +3,19 @@
 
 CMakeFiles/CGA_Shape.dir/main.cpp.o: ../main.cpp
 CMakeFiles/CGA_Shape.dir/main.cpp.o: ../parser/y_io_2.h
+CMakeFiles/CGA_Shape.dir/main.cpp.o: ../shape/geometry.h
+CMakeFiles/CGA_Shape.dir/main.cpp.o: ../shape/nonterminalShape.h
+CMakeFiles/CGA_Shape.dir/main.cpp.o: ../shape/rule.h
+CMakeFiles/CGA_Shape.dir/main.cpp.o: ../shape/shape.h
+CMakeFiles/CGA_Shape.dir/main.cpp.o: ../shape/terminalShape.h
+CMakeFiles/CGA_Shape.dir/main.cpp.o: ../shape/workflow.h
+CMakeFiles/CGA_Shape.dir/main.cpp.o: ../util/basicSplitRule.h
+CMakeFiles/CGA_Shape.dir/main.cpp.o: ../util/componentSplitRule.h
+CMakeFiles/CGA_Shape.dir/main.cpp.o: ../util/createShape.h
+CMakeFiles/CGA_Shape.dir/main.cpp.o: ../util/generalRule.h
+CMakeFiles/CGA_Shape.dir/main.cpp.o: ../util/nestedBasicSplitRule.h
+CMakeFiles/CGA_Shape.dir/main.cpp.o: ../util/repeatRule.h
+CMakeFiles/CGA_Shape.dir/main.cpp.o: ../util/scopeRule.h
 
 CMakeFiles/CGA_Shape.dir/shape/geometry.cpp.o: ../shape/geometry.cpp
 CMakeFiles/CGA_Shape.dir/shape/geometry.cpp.o: ../shape/geometry.h
@@ -18,6 +31,8 @@ CMakeFiles/CGA_Shape.dir/shape/rule.cpp.o: ../shape/rule.cpp
 CMakeFiles/CGA_Shape.dir/shape/rule.cpp.o: ../shape/rule.h
 CMakeFiles/CGA_Shape.dir/shape/rule.cpp.o: ../shape/shape.h
 CMakeFiles/CGA_Shape.dir/shape/rule.cpp.o: ../shape/terminalShape.h
+CMakeFiles/CGA_Shape.dir/shape/rule.cpp.o: ../shape/workflow.h
+CMakeFiles/CGA_Shape.dir/shape/rule.cpp.o: ../util/generalRule.h
 
 CMakeFiles/CGA_Shape.dir/shape/shape.cpp.o: ../shape/geometry.h
 CMakeFiles/CGA_Shape.dir/shape/shape.cpp.o: ../shape/shape.cpp
@@ -28,18 +43,37 @@ CMakeFiles/CGA_Shape.dir/shape/terminalShape.cpp.o: ../shape/shape.h
 CMakeFiles/CGA_Shape.dir/shape/terminalShape.cpp.o: ../shape/terminalShape.cpp
 CMakeFiles/CGA_Shape.dir/shape/terminalShape.cpp.o: ../shape/terminalShape.h
 
+CMakeFiles/CGA_Shape.dir/shape/workflow.cpp.o: ../shape/workflow.cpp
+CMakeFiles/CGA_Shape.dir/shape/workflow.cpp.o: ../shape/workflow.h
+CMakeFiles/CGA_Shape.dir/shape/workflow.cpp.o: ../util/generalRule.h
+
 CMakeFiles/CGA_Shape.dir/util/basicSplitRule.cpp.o: ../util/basicSplitRule.cpp
 CMakeFiles/CGA_Shape.dir/util/basicSplitRule.cpp.o: ../util/basicSplitRule.h
+CMakeFiles/CGA_Shape.dir/util/basicSplitRule.cpp.o: ../util/createShape.h
+CMakeFiles/CGA_Shape.dir/util/basicSplitRule.cpp.o: ../util/generalRule.h
 
 CMakeFiles/CGA_Shape.dir/util/componentSplitRule.cpp.o: ../util/componentSplitRule.cpp
 CMakeFiles/CGA_Shape.dir/util/componentSplitRule.cpp.o: ../util/componentSplitRule.h
+CMakeFiles/CGA_Shape.dir/util/componentSplitRule.cpp.o: ../util/generalRule.h
 
-CMakeFiles/CGA_Shape.dir/util/generalProcessor.cpp.o: ../util/generalProcessor.cpp
-CMakeFiles/CGA_Shape.dir/util/generalProcessor.cpp.o: ../util/generalProcessor.h
+CMakeFiles/CGA_Shape.dir/util/createShape.cpp.o: ../util/createShape.cpp
+CMakeFiles/CGA_Shape.dir/util/createShape.cpp.o: ../util/createShape.h
+CMakeFiles/CGA_Shape.dir/util/createShape.cpp.o: ../util/generalRule.h
 
+CMakeFiles/CGA_Shape.dir/util/generalRule.cpp.o: ../util/generalRule.cpp
+CMakeFiles/CGA_Shape.dir/util/generalRule.cpp.o: ../util/generalRule.h
+
+CMakeFiles/CGA_Shape.dir/util/nestedBasicSplitRule.cpp.o: ../util/generalRule.h
+CMakeFiles/CGA_Shape.dir/util/nestedBasicSplitRule.cpp.o: ../util/nestedBasicSplitRule.cpp
+CMakeFiles/CGA_Shape.dir/util/nestedBasicSplitRule.cpp.o: ../util/nestedBasicSplitRule.h
+
+CMakeFiles/CGA_Shape.dir/util/repeatRule.cpp.o: ../util/generalRule.h
 CMakeFiles/CGA_Shape.dir/util/repeatRule.cpp.o: ../util/repeatRule.cpp
 CMakeFiles/CGA_Shape.dir/util/repeatRule.cpp.o: ../util/repeatRule.h
 
+CMakeFiles/CGA_Shape.dir/util/scopeRule.cpp.o: ../shape/geometry.h
+CMakeFiles/CGA_Shape.dir/util/scopeRule.cpp.o: ../shape/shape.h
+CMakeFiles/CGA_Shape.dir/util/scopeRule.cpp.o: ../util/generalRule.h
 CMakeFiles/CGA_Shape.dir/util/scopeRule.cpp.o: ../util/scopeRule.cpp
 CMakeFiles/CGA_Shape.dir/util/scopeRule.cpp.o: ../util/scopeRule.h
 

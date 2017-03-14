@@ -273,33 +273,9 @@ CMakeFiles/CGA_Shape.dir/util/componentSplitRule.cpp.o.provides: CMakeFiles/CGA_
 CMakeFiles/CGA_Shape.dir/util/componentSplitRule.cpp.o.provides.build: CMakeFiles/CGA_Shape.dir/util/componentSplitRule.cpp.o
 
 
-CMakeFiles/CGA_Shape.dir/util/generalProcessor.cpp.o: CMakeFiles/CGA_Shape.dir/flags.make
-CMakeFiles/CGA_Shape.dir/util/generalProcessor.cpp.o: ../util/generalProcessor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mashenjun/WorkSpace/CGA-Shape-Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CGA_Shape.dir/util/generalProcessor.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CGA_Shape.dir/util/generalProcessor.cpp.o -c /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/generalProcessor.cpp
-
-CMakeFiles/CGA_Shape.dir/util/generalProcessor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CGA_Shape.dir/util/generalProcessor.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/generalProcessor.cpp > CMakeFiles/CGA_Shape.dir/util/generalProcessor.cpp.i
-
-CMakeFiles/CGA_Shape.dir/util/generalProcessor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CGA_Shape.dir/util/generalProcessor.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/generalProcessor.cpp -o CMakeFiles/CGA_Shape.dir/util/generalProcessor.cpp.s
-
-CMakeFiles/CGA_Shape.dir/util/generalProcessor.cpp.o.requires:
-
-.PHONY : CMakeFiles/CGA_Shape.dir/util/generalProcessor.cpp.o.requires
-
-CMakeFiles/CGA_Shape.dir/util/generalProcessor.cpp.o.provides: CMakeFiles/CGA_Shape.dir/util/generalProcessor.cpp.o.requires
-	$(MAKE) -f CMakeFiles/CGA_Shape.dir/build.make CMakeFiles/CGA_Shape.dir/util/generalProcessor.cpp.o.provides.build
-.PHONY : CMakeFiles/CGA_Shape.dir/util/generalProcessor.cpp.o.provides
-
-CMakeFiles/CGA_Shape.dir/util/generalProcessor.cpp.o.provides.build: CMakeFiles/CGA_Shape.dir/util/generalProcessor.cpp.o
-
-
 CMakeFiles/CGA_Shape.dir/shape/rule.cpp.o: CMakeFiles/CGA_Shape.dir/flags.make
 CMakeFiles/CGA_Shape.dir/shape/rule.cpp.o: ../shape/rule.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mashenjun/WorkSpace/CGA-Shape-Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CGA_Shape.dir/shape/rule.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mashenjun/WorkSpace/CGA-Shape-Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CGA_Shape.dir/shape/rule.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CGA_Shape.dir/shape/rule.cpp.o -c /home/mashenjun/WorkSpace/CGA-Shape-Parser/shape/rule.cpp
 
 CMakeFiles/CGA_Shape.dir/shape/rule.cpp.i: cmake_force
@@ -321,6 +297,102 @@ CMakeFiles/CGA_Shape.dir/shape/rule.cpp.o.provides: CMakeFiles/CGA_Shape.dir/sha
 CMakeFiles/CGA_Shape.dir/shape/rule.cpp.o.provides.build: CMakeFiles/CGA_Shape.dir/shape/rule.cpp.o
 
 
+CMakeFiles/CGA_Shape.dir/shape/workflow.cpp.o: CMakeFiles/CGA_Shape.dir/flags.make
+CMakeFiles/CGA_Shape.dir/shape/workflow.cpp.o: ../shape/workflow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mashenjun/WorkSpace/CGA-Shape-Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CGA_Shape.dir/shape/workflow.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CGA_Shape.dir/shape/workflow.cpp.o -c /home/mashenjun/WorkSpace/CGA-Shape-Parser/shape/workflow.cpp
+
+CMakeFiles/CGA_Shape.dir/shape/workflow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CGA_Shape.dir/shape/workflow.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mashenjun/WorkSpace/CGA-Shape-Parser/shape/workflow.cpp > CMakeFiles/CGA_Shape.dir/shape/workflow.cpp.i
+
+CMakeFiles/CGA_Shape.dir/shape/workflow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CGA_Shape.dir/shape/workflow.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mashenjun/WorkSpace/CGA-Shape-Parser/shape/workflow.cpp -o CMakeFiles/CGA_Shape.dir/shape/workflow.cpp.s
+
+CMakeFiles/CGA_Shape.dir/shape/workflow.cpp.o.requires:
+
+.PHONY : CMakeFiles/CGA_Shape.dir/shape/workflow.cpp.o.requires
+
+CMakeFiles/CGA_Shape.dir/shape/workflow.cpp.o.provides: CMakeFiles/CGA_Shape.dir/shape/workflow.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CGA_Shape.dir/build.make CMakeFiles/CGA_Shape.dir/shape/workflow.cpp.o.provides.build
+.PHONY : CMakeFiles/CGA_Shape.dir/shape/workflow.cpp.o.provides
+
+CMakeFiles/CGA_Shape.dir/shape/workflow.cpp.o.provides.build: CMakeFiles/CGA_Shape.dir/shape/workflow.cpp.o
+
+
+CMakeFiles/CGA_Shape.dir/util/generalRule.cpp.o: CMakeFiles/CGA_Shape.dir/flags.make
+CMakeFiles/CGA_Shape.dir/util/generalRule.cpp.o: ../util/generalRule.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mashenjun/WorkSpace/CGA-Shape-Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CGA_Shape.dir/util/generalRule.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CGA_Shape.dir/util/generalRule.cpp.o -c /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/generalRule.cpp
+
+CMakeFiles/CGA_Shape.dir/util/generalRule.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CGA_Shape.dir/util/generalRule.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/generalRule.cpp > CMakeFiles/CGA_Shape.dir/util/generalRule.cpp.i
+
+CMakeFiles/CGA_Shape.dir/util/generalRule.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CGA_Shape.dir/util/generalRule.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/generalRule.cpp -o CMakeFiles/CGA_Shape.dir/util/generalRule.cpp.s
+
+CMakeFiles/CGA_Shape.dir/util/generalRule.cpp.o.requires:
+
+.PHONY : CMakeFiles/CGA_Shape.dir/util/generalRule.cpp.o.requires
+
+CMakeFiles/CGA_Shape.dir/util/generalRule.cpp.o.provides: CMakeFiles/CGA_Shape.dir/util/generalRule.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CGA_Shape.dir/build.make CMakeFiles/CGA_Shape.dir/util/generalRule.cpp.o.provides.build
+.PHONY : CMakeFiles/CGA_Shape.dir/util/generalRule.cpp.o.provides
+
+CMakeFiles/CGA_Shape.dir/util/generalRule.cpp.o.provides.build: CMakeFiles/CGA_Shape.dir/util/generalRule.cpp.o
+
+
+CMakeFiles/CGA_Shape.dir/util/createShape.cpp.o: CMakeFiles/CGA_Shape.dir/flags.make
+CMakeFiles/CGA_Shape.dir/util/createShape.cpp.o: ../util/createShape.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mashenjun/WorkSpace/CGA-Shape-Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/CGA_Shape.dir/util/createShape.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CGA_Shape.dir/util/createShape.cpp.o -c /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/createShape.cpp
+
+CMakeFiles/CGA_Shape.dir/util/createShape.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CGA_Shape.dir/util/createShape.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/createShape.cpp > CMakeFiles/CGA_Shape.dir/util/createShape.cpp.i
+
+CMakeFiles/CGA_Shape.dir/util/createShape.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CGA_Shape.dir/util/createShape.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/createShape.cpp -o CMakeFiles/CGA_Shape.dir/util/createShape.cpp.s
+
+CMakeFiles/CGA_Shape.dir/util/createShape.cpp.o.requires:
+
+.PHONY : CMakeFiles/CGA_Shape.dir/util/createShape.cpp.o.requires
+
+CMakeFiles/CGA_Shape.dir/util/createShape.cpp.o.provides: CMakeFiles/CGA_Shape.dir/util/createShape.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CGA_Shape.dir/build.make CMakeFiles/CGA_Shape.dir/util/createShape.cpp.o.provides.build
+.PHONY : CMakeFiles/CGA_Shape.dir/util/createShape.cpp.o.provides
+
+CMakeFiles/CGA_Shape.dir/util/createShape.cpp.o.provides.build: CMakeFiles/CGA_Shape.dir/util/createShape.cpp.o
+
+
+CMakeFiles/CGA_Shape.dir/util/nestedBasicSplitRule.cpp.o: CMakeFiles/CGA_Shape.dir/flags.make
+CMakeFiles/CGA_Shape.dir/util/nestedBasicSplitRule.cpp.o: ../util/nestedBasicSplitRule.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mashenjun/WorkSpace/CGA-Shape-Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/CGA_Shape.dir/util/nestedBasicSplitRule.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CGA_Shape.dir/util/nestedBasicSplitRule.cpp.o -c /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/nestedBasicSplitRule.cpp
+
+CMakeFiles/CGA_Shape.dir/util/nestedBasicSplitRule.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CGA_Shape.dir/util/nestedBasicSplitRule.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/nestedBasicSplitRule.cpp > CMakeFiles/CGA_Shape.dir/util/nestedBasicSplitRule.cpp.i
+
+CMakeFiles/CGA_Shape.dir/util/nestedBasicSplitRule.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CGA_Shape.dir/util/nestedBasicSplitRule.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/nestedBasicSplitRule.cpp -o CMakeFiles/CGA_Shape.dir/util/nestedBasicSplitRule.cpp.s
+
+CMakeFiles/CGA_Shape.dir/util/nestedBasicSplitRule.cpp.o.requires:
+
+.PHONY : CMakeFiles/CGA_Shape.dir/util/nestedBasicSplitRule.cpp.o.requires
+
+CMakeFiles/CGA_Shape.dir/util/nestedBasicSplitRule.cpp.o.provides: CMakeFiles/CGA_Shape.dir/util/nestedBasicSplitRule.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CGA_Shape.dir/build.make CMakeFiles/CGA_Shape.dir/util/nestedBasicSplitRule.cpp.o.provides.build
+.PHONY : CMakeFiles/CGA_Shape.dir/util/nestedBasicSplitRule.cpp.o.provides
+
+CMakeFiles/CGA_Shape.dir/util/nestedBasicSplitRule.cpp.o.provides.build: CMakeFiles/CGA_Shape.dir/util/nestedBasicSplitRule.cpp.o
+
+
 # Object files for target CGA_Shape
 CGA_Shape_OBJECTS = \
 "CMakeFiles/CGA_Shape.dir/main.cpp.o" \
@@ -332,8 +404,11 @@ CGA_Shape_OBJECTS = \
 "CMakeFiles/CGA_Shape.dir/util/basicSplitRule.cpp.o" \
 "CMakeFiles/CGA_Shape.dir/util/repeatRule.cpp.o" \
 "CMakeFiles/CGA_Shape.dir/util/componentSplitRule.cpp.o" \
-"CMakeFiles/CGA_Shape.dir/util/generalProcessor.cpp.o" \
-"CMakeFiles/CGA_Shape.dir/shape/rule.cpp.o"
+"CMakeFiles/CGA_Shape.dir/shape/rule.cpp.o" \
+"CMakeFiles/CGA_Shape.dir/shape/workflow.cpp.o" \
+"CMakeFiles/CGA_Shape.dir/util/generalRule.cpp.o" \
+"CMakeFiles/CGA_Shape.dir/util/createShape.cpp.o" \
+"CMakeFiles/CGA_Shape.dir/util/nestedBasicSplitRule.cpp.o"
 
 # External object files for target CGA_Shape
 CGA_Shape_EXTERNAL_OBJECTS =
@@ -347,11 +422,14 @@ CGA_Shape: CMakeFiles/CGA_Shape.dir/util/scopeRule.cpp.o
 CGA_Shape: CMakeFiles/CGA_Shape.dir/util/basicSplitRule.cpp.o
 CGA_Shape: CMakeFiles/CGA_Shape.dir/util/repeatRule.cpp.o
 CGA_Shape: CMakeFiles/CGA_Shape.dir/util/componentSplitRule.cpp.o
-CGA_Shape: CMakeFiles/CGA_Shape.dir/util/generalProcessor.cpp.o
 CGA_Shape: CMakeFiles/CGA_Shape.dir/shape/rule.cpp.o
+CGA_Shape: CMakeFiles/CGA_Shape.dir/shape/workflow.cpp.o
+CGA_Shape: CMakeFiles/CGA_Shape.dir/util/generalRule.cpp.o
+CGA_Shape: CMakeFiles/CGA_Shape.dir/util/createShape.cpp.o
+CGA_Shape: CMakeFiles/CGA_Shape.dir/util/nestedBasicSplitRule.cpp.o
 CGA_Shape: CMakeFiles/CGA_Shape.dir/build.make
 CGA_Shape: CMakeFiles/CGA_Shape.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mashenjun/WorkSpace/CGA-Shape-Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable CGA_Shape"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mashenjun/WorkSpace/CGA-Shape-Parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable CGA_Shape"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CGA_Shape.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -368,8 +446,11 @@ CMakeFiles/CGA_Shape.dir/requires: CMakeFiles/CGA_Shape.dir/util/scopeRule.cpp.o
 CMakeFiles/CGA_Shape.dir/requires: CMakeFiles/CGA_Shape.dir/util/basicSplitRule.cpp.o.requires
 CMakeFiles/CGA_Shape.dir/requires: CMakeFiles/CGA_Shape.dir/util/repeatRule.cpp.o.requires
 CMakeFiles/CGA_Shape.dir/requires: CMakeFiles/CGA_Shape.dir/util/componentSplitRule.cpp.o.requires
-CMakeFiles/CGA_Shape.dir/requires: CMakeFiles/CGA_Shape.dir/util/generalProcessor.cpp.o.requires
 CMakeFiles/CGA_Shape.dir/requires: CMakeFiles/CGA_Shape.dir/shape/rule.cpp.o.requires
+CMakeFiles/CGA_Shape.dir/requires: CMakeFiles/CGA_Shape.dir/shape/workflow.cpp.o.requires
+CMakeFiles/CGA_Shape.dir/requires: CMakeFiles/CGA_Shape.dir/util/generalRule.cpp.o.requires
+CMakeFiles/CGA_Shape.dir/requires: CMakeFiles/CGA_Shape.dir/util/createShape.cpp.o.requires
+CMakeFiles/CGA_Shape.dir/requires: CMakeFiles/CGA_Shape.dir/util/nestedBasicSplitRule.cpp.o.requires
 
 .PHONY : CMakeFiles/CGA_Shape.dir/requires
 

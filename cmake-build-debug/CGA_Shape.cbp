@@ -120,6 +120,12 @@
 		<Unit filename="/home/mashenjun/WorkSpace/CGA-Shape-Parser/shape/terminalShape.h">
 			<Option target="CGA_Shape"/>
 		</Unit>
+		<Unit filename="/home/mashenjun/WorkSpace/CGA-Shape-Parser/shape/workflow.cpp">
+			<Option target="CGA_Shape"/>
+		</Unit>
+		<Unit filename="/home/mashenjun/WorkSpace/CGA-Shape-Parser/shape/workflow.h">
+			<Option target="CGA_Shape"/>
+		</Unit>
 		<Unit filename="/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/basicSplitRule.cpp">
 			<Option target="CGA_Shape"/>
 		</Unit>
@@ -132,10 +138,22 @@
 		<Unit filename="/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/componentSplitRule.h">
 			<Option target="CGA_Shape"/>
 		</Unit>
-		<Unit filename="/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/generalProcessor.cpp">
+		<Unit filename="/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/createShape.cpp">
 			<Option target="CGA_Shape"/>
 		</Unit>
-		<Unit filename="/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/generalProcessor.h">
+		<Unit filename="/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/createShape.h">
+			<Option target="CGA_Shape"/>
+		</Unit>
+		<Unit filename="/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/generalRule.cpp">
+			<Option target="CGA_Shape"/>
+		</Unit>
+		<Unit filename="/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/generalRule.h">
+			<Option target="CGA_Shape"/>
+		</Unit>
+		<Unit filename="/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/nestedBasicSplitRule.cpp">
+			<Option target="CGA_Shape"/>
+		</Unit>
+		<Unit filename="/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/nestedBasicSplitRule.h">
 			<Option target="CGA_Shape"/>
 		</Unit>
 		<Unit filename="/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/repeatRule.cpp">

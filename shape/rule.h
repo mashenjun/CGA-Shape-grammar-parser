@@ -9,32 +9,35 @@
 #include "shape.h"
 #include "nonterminalShape.h"
 #include "terminalShape.h"
-
+#include "../util/generalRule.h"
+#include "workflow.h"
 class rule {
     private:
         int id;
-        nonterminalShape predecessor;
-        bool condition = true;
-        std::list<shape> successor;
+        std::string predecessor;
+        std::string condition ;
+        std::list<workflow> successor; // steps
+
 
 public:
-    rule(int id, const nonterminalShape &predecessor, bool condition, const list<shape> &successor);
+    rule(int id, const string &predecessor, const string &condition, const list<workflow> &successor);
 
     int getId() const;
 
     void setId(int id);
 
-    const nonterminalShape &getPredecessor() const;
 
-    void setPredecessor(const nonterminalShape &predecessor);
+    const string &getCondition() const;
 
-    const list<shape> &getSuccessor() const;
+    void setCondition(const string &condition);
 
-    void setSuccessor(const list<shape> &successor);
+    const list<workflow> &getSuccessor() const;
 
-    bool isCondition() const;
+    void setSuccessor(const list<workflow> &successor);
 
-    void setCondition(bool condition);
+    const string &getPredecessor() const;
+
+    void setPredecessor(const string &predecessor);
 };
 
 
