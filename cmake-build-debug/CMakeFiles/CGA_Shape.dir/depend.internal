@@ -44,9 +44,17 @@ CMakeFiles/CGA_Shape.dir/shape/terminalShape.cpp.o
  /home/mashenjun/WorkSpace/CGA-Shape-Parser/shape/terminalShape.cpp
  /home/mashenjun/WorkSpace/CGA-Shape-Parser/shape/terminalShape.h
 CMakeFiles/CGA_Shape.dir/shape/workflow.cpp.o
+ /home/mashenjun/WorkSpace/CGA-Shape-Parser/shape/geometry.h
+ /home/mashenjun/WorkSpace/CGA-Shape-Parser/shape/shape.h
  /home/mashenjun/WorkSpace/CGA-Shape-Parser/shape/workflow.cpp
  /home/mashenjun/WorkSpace/CGA-Shape-Parser/shape/workflow.h
+ /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/basicSplitRule.h
+ /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/componentSplitRule.h
+ /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/createShape.h
  /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/generalRule.h
+ /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/nestedBasicSplitRule.h
+ /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/repeatRule.h
+ /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/scopeRule.h
 CMakeFiles/CGA_Shape.dir/util/basicSplitRule.cpp.o
  /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/basicSplitRule.cpp
  /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/basicSplitRule.h

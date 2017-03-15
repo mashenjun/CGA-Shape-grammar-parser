@@ -1,12 +1,15 @@
 
 #include "scopeRule.h"
-
+#include <iostream>
 void scopeRule::apply() {
-
+    std::cout<< "[" <<this->operationType<<"]" <<
+    "["<<std::get<0>(t)<<","<<std::get<1>(t)<<","<<std::get<2>(t) <<"]"<<
+    "["<<std::get<0>(s)<<","<<std::get<1>(s)<<","<<std::get<2>(s) <<"]"<<
+    "["<<this->rx<<','<<this->ry<<','<<this->rz<<"]"<<"["<<this->target<< "]"<<std::endl;
 }
 
 
-scopeRule::scopeRule(const string &name) {
+scopeRule::scopeRule(const string &name) : generalRule("scope") {
     this->t =  std::make_tuple("0","0","0");
     this->s =  std::make_tuple("0","0","0");
     this->rx = "0";

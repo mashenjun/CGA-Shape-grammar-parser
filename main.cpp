@@ -163,7 +163,7 @@ void replaceAll(std::string& str, const std::string& from, const std::string& to
 
 workflow generateWF(std::string successor, float prob){
     // create shape
-    std::cout << successor << std::endl;
+//    std::vector<generalRule> v;
     std::vector<std::shared_ptr<generalRule>> v;
     if (successor.find(operationBreaker) == string::npos){
         if (std::regex_search(successor,terminalShapeRgx)){
@@ -172,8 +172,8 @@ workflow generateWF(std::string successor, float prob){
             string objName = successor.substr(posStart + 2, posEnd - posStart - 2);
             createShape terminalShape = createShape(objName,true);
 //            std::vector<std::shared_ptr<generalRule>> v{ std::make_shared<createShape>(terminalShape)};
+//            v.push_back(terminalShape);
             v.push_back(std::make_shared<createShape>(terminalShape));
-
         }
         else {
             std::string objName = successor;
@@ -181,6 +181,7 @@ workflow generateWF(std::string successor, float prob){
                 std::string objName = separate(successor);
             }
             createShape nonterminalShape = createShape(objName, false);
+//            v.push_back(nonterminalShape);
             v.push_back(std::make_shared<createShape>(nonterminalShape));
 //            workflow result = workflow(prob,v);
 //            return result;
@@ -191,7 +192,6 @@ workflow generateWF(std::string successor, float prob){
         std::stack<int> fbl;
         std::queue<std::pair<int,int>> bpl;
         findBracketsPos(successor,0,fbl,bpl);
-        std::vector<std::shared_ptr<generalRule>> v;
         std::stack<std::string> temp;
 
         int tracker=0 ;
@@ -206,11 +206,11 @@ workflow generateWF(std::string successor, float prob){
             else {
                 tracker = 0;
             }
-
             std::string op_str = successor.substr(tracker,ob-tracker);
             std::string target = successor.substr(ob+1,cb-ob-1);
             if (target.find(openbracket)!=string::npos){
                 std::string op_tg = op_str+'{'+target+'}';
+//                generalRule child = v.back();
                 std::shared_ptr<generalRule> child = (shared_ptr<generalRule> &&) v.back();
                 v.pop_back();
                 replaceAll(target,temp.top(),childKeyWord);
@@ -223,30 +223,29 @@ workflow generateWF(std::string successor, float prob){
                 std::string direction = removeQuotes(params[0]);
                 params.erase(params.begin());
                 std::vector<std::string> targets = split(target,targetBreaker);
+//                std::vector<generalRule> newtarget;
                 std::vector<std::shared_ptr<generalRule>> newtarget;
                 for(std::string item: targets){
                     if (item.find(childKeyWord)!=string::npos){
                         newtarget.push_back(child);
                     }else{
                         createShape csp = createShape(item,false);
+//                        newtarget.push_back(csp);
                         newtarget.push_back(std::make_shared<createShape>(csp));
+
                     }
                 }
                 nestedBasicSplitRule nbsr = nestedBasicSplitRule(newtarget,direction,params);
+//                v.push_back(nbsr);
                 v.push_back(std::make_shared<nestedBasicSplitRule>(nbsr));
-
-
                 temp.push(op_tg);
             }
             else {
-
                 std::string op_tg = op_str+'{'+target+'}';
                 temp.push(op_tg);
-
                 std::stack<int> fopbl;
                 std::queue<std::pair<int,int>> opbpl;
                 findOpBracketsPos(op_str,0,fopbl,opbpl);
-                std::cout << std::boolalpha;
                 if (std::regex_search (op_str,scopeRuleRgx)){
                     scopeRule spr = scopeRule(target);
                     int tracker_opname = 0;
@@ -274,6 +273,7 @@ workflow generateWF(std::string successor, float prob){
                         tracker_opname = opbpl.front().second+1;
                         opbpl.pop();
                     }
+//                    v.push_back(spr);
                     v.push_back(std::make_shared<scopeRule>(spr));
                 }
                 else if(std::regex_search (op_str,basicSplitRuleRgx)){
@@ -282,12 +282,13 @@ workflow generateWF(std::string successor, float prob){
                     std::string direction = removeQuotes(params[0]);
                     params.erase(params.begin());
                     basicSplitRule bsr = basicSplitRule(split(target,targetBreaker),direction,params);
+//                    v.push_back(bsr);
                     v.push_back(std::make_shared<basicSplitRule>(bsr));
-
                 }
                 else if(std::regex_search (op_str,componentSplitRuleRgx)){
                     std::string parm_str = removeQuotes(op_str.substr(opbpl.front().first+1,opbpl.front().second-opbpl.front().first-1));
                     componentSplitRule csr = componentSplitRule(target,parm_str);
+//                    v.push_back(csr);
                     v.push_back(std::make_shared<componentSplitRule>(csr));
                 }
                 else if (std::regex_search (op_str,repeatSplitRuleRgx)){
@@ -296,9 +297,9 @@ workflow generateWF(std::string successor, float prob){
                     std::string direction = removeQuotes(params[0]);
                     params.erase(params.begin());
                     repeatRule rpr = repeatRule(target,direction,params);
+//                    v.push_back(rpr);
                     v.push_back(std::make_shared<repeatRule>(rpr));
                 }
-
             }
             bpl.pop();
         }
@@ -336,11 +337,11 @@ workflow generateWF(std::string successor, float prob){
                 tracker_opname = opbpl.front().second+1;
                 opbpl.pop();
             }
-            v.push_back(std::make_shared<scopeRule>(spr));
+//            v.push_back(spr);
+        v.push_back(std::make_shared<scopeRule>(spr));
     }
 
     workflow result = workflow(prob,v);
-    std::cout<<"[DEBUG] " <<v.size()<<std::endl;
     return result;
 }
 
@@ -355,9 +356,9 @@ int main() {
 //    std::list<nonterminalShape> nonterminalShape = {} ;
     std::stack<std::string> operations;
     std::vector<std::string> rules;
-    std::list<rule> rulesbook;
+    std::vector<rule> rulesbook;
     std::string newline = "\n";
-    char*s=yIo2::ReadTextFile("test_rules.txt");
+    char*s=yIo2::ReadTextFile("test_rules2.txt");
     std::string str(s);
     size_t pos = 0;
 //    std::string token;
@@ -392,7 +393,7 @@ int main() {
         std::string predecessor ;
         std::string condition ;
         std::string successor ;
-        std::list<workflow> workflows;
+        std::vector<workflow> workflows;
         std::string rule_str = rules[i];
 //        std::string token = rule_str.substr(0, rule_str.find(delimiter));
 //        while ((pos = rule_str.find(ruleBreaker)) != std::string::npos) {
@@ -439,13 +440,6 @@ int main() {
 //                    probability.push_back(1.0);
                 }
 
-                std::cout << '[' << successor << ']' << std::endl;
-
-//                std::vector<std::string> OPs = split(successor,operationBreaker);
-//                for (int k = 0; k < OPs.size() ; ++k) {
-//                    std::cout << '[' << OPs[k] << ']' << std::endl;
-//                }
-
             }
 
 
@@ -454,17 +448,10 @@ int main() {
         rulesbook.push_back(signleRule);
 
     }
-//    std::string test= "OP-Subdiv(\"X\",1r,window_width,1r){ wall |\n\tOP-Subdiv(\"Y\",2r,window_height,1r){ wall | window | wall } | wall }";
-//    std::stack<int> fbl;
-//    std::queue<std::pair<int,int>> bpl;
-//    findBracketsPos(test,0,fbl,bpl);
-//
-//
-//    std::cout << '|'<<test.substr(bpl.front().first+1,bpl.front().second-bpl.front().first-1)<<'|' << std::endl;
-//    bpl.pop();
-//    std::cout << '|'<<test.substr(bpl.front().first+1,bpl.front().second-bpl.front().first-1)<<'|' << std::endl;
-//    std::cout << '|'<<test.substr(0,bpl.front().first)<<'|' << std::endl;
-//    std::cout << bpl.front().first<<','<<bpl.front().second<< std::endl;
+    for (int k = 0; k < rulesbook.size(); ++k) {
+        rulesbook[k].process();
+    }
+
     std::cout << "END!!!" << std::endl;
     return 0;
 }

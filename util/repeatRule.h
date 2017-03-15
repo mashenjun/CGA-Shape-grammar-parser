@@ -24,7 +24,8 @@ public:
 
     void setParams(const std::vector<std::string> &params);
 
-    repeatRule(const std::string &target, const std::string &direction, const std::vector<std::string> &params);
+    repeatRule(const std::string &target, const std::string &direction,
+               const std::vector<std::string> &params);
 
     void apply() override;
 

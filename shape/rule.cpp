@@ -21,22 +21,6 @@ void rule::setCondition(const string &condition) {
     rule::condition = condition;
 }
 
-const list<workflow> &rule::getSuccessor() const {
-    return successor;
-}
-
-void rule::setSuccessor(const list<workflow> &successor) {
-    rule::successor = successor;
-}
-
-rule::rule(int id, const string &predecessor, const string &condition, const list<workflow> &successor) : id(id),
-                                                                                                          predecessor(
-                                                                                                                  predecessor),
-                                                                                                          condition(
-                                                                                                                  condition),
-                                                                                                          successor(
-                                                                                                                  successor) {}
-
 const string &rule::getPredecessor() const {
     return predecessor;
 }
@@ -44,3 +28,25 @@ const string &rule::getPredecessor() const {
 void rule::setPredecessor(const string &predecessor) {
     rule::predecessor = predecessor;
 }
+
+void rule::process (){
+    for (int i = 0; i <this->successor.size() ; ++i) {
+        successor[i].process();
+    }
+}
+
+rule::rule(int id, const string &predecessor, const string &condition, const vector<workflow> &successor) : id(id),
+                                                                                                            predecessor(
+                                                                                                                    predecessor),
+                                                                                                            condition(
+                                                                                                                    condition),
+                                                                                                            successor(
+                                                                                                                    successor) {}
+
+const vector<workflow> &rule::getSuccessor() const {
+    return successor;
+}
+
+void rule::setSuccessor(const vector<workflow> &successor) {
+    rule::successor = successor;
+};

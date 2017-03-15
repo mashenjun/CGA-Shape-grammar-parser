@@ -125,6 +125,20 @@ shape.h
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/shape/workflow.cpp
 workflow.h
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/shape/workflow.h
+iostream
+-
+../util/createShape.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/createShape.h
+../util/scopeRule.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/scopeRule.h
+../util/basicSplitRule.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/basicSplitRule.h
+../util/nestedBasicSplitRule.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/nestedBasicSplitRule.h
+../util/componentSplitRule.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/componentSplitRule.h
+../util/repeatRule.h
+/home/mashenjun/WorkSpace/CGA-Shape-Parser/util/repeatRule.h
 
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/shape/workflow.h
 string
@@ -143,6 +157,8 @@ vector
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/basicSplitRule.cpp
 basicSplitRule.h
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/basicSplitRule.h
+iostream
+-
 createShape.h
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/createShape.h
 
@@ -155,6 +171,8 @@ generalRule.h
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/componentSplitRule.cpp
 componentSplitRule.h
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/componentSplitRule.h
+iostream
+-
 
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/componentSplitRule.h
 generalRule.h
@@ -163,6 +181,8 @@ generalRule.h
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/createShape.cpp
 createShape.h
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/createShape.h
+iostream
+-
 
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/createShape.h
 generalRule.h
@@ -185,6 +205,8 @@ map
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/nestedBasicSplitRule.cpp
 nestedBasicSplitRule.h
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/nestedBasicSplitRule.h
+iostream
+-
 
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/nestedBasicSplitRule.h
 vector
@@ -197,6 +219,8 @@ generalRule.h
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/repeatRule.cpp
 repeatRule.h
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/repeatRule.h
+iostream
+-
 
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/repeatRule.h
 vector
@@ -207,6 +231,8 @@ generalRule.h
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/scopeRule.cpp
 scopeRule.h
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/scopeRule.h
+iostream
+-
 
 /home/mashenjun/WorkSpace/CGA-Shape-Parser/util/scopeRule.h
 tuple

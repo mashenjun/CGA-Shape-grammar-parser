@@ -16,28 +16,29 @@ class rule {
         int id;
         std::string predecessor;
         std::string condition ;
-        std::list<workflow> successor; // steps
+        std::vector<workflow> successor; // steps
 
 
 public:
-    rule(int id, const string &predecessor, const string &condition, const list<workflow> &successor);
+    rule(int id, const string &predecessor, const string &condition, const vector<workflow> &successor);
 
     int getId() const;
 
     void setId(int id);
 
-
     const string &getCondition() const;
 
     void setCondition(const string &condition);
 
-    const list<workflow> &getSuccessor() const;
-
-    void setSuccessor(const list<workflow> &successor);
+    const vector<workflow> &getSuccessor() const;
 
     const string &getPredecessor() const;
 
     void setPredecessor(const string &predecessor);
+
+    void process();
+
+    void setSuccessor(const vector<workflow> &successor);
 };
 
 

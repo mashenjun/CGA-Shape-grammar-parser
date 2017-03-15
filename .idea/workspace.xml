@@ -12,38 +12,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf341686-bd73-4e2c-abab-356afaeaf921" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shape/workflow.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shape/workflow.h" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/util/generalProcessor.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/util/generalProcessor.h" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGA-Shape-Parser.bundle" afterPath="$PROJECT_DIR$/CGA-Shape-Parser.bundle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CGA_Shape" afterPath="$PROJECT_DIR$/cmake-build-debug/CGA_Shape" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CGA_Shape.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/CGA_Shape.cbp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CGA_Shape.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CGA_Shape.dir/CXX.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CGA_Shape.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CGA_Shape.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CGA_Shape.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CGA_Shape.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CGA_Shape.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CGA_Shape.dir/cmake_clean.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CGA_Shape.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CGA_Shape.dir/depend.internal" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CGA_Shape.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CGA_Shape.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CGA_Shape.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CGA_Shape.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CGA_Shape.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CGA_Shape.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/test_rules.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/test_rules.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shape/rule.cpp" afterPath="$PROJECT_DIR$/shape/rule.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shape/rule.h" afterPath="$PROJECT_DIR$/shape/rule.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shape/workflow.cpp" afterPath="$PROJECT_DIR$/shape/workflow.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/basicSplitRule.cpp" afterPath="$PROJECT_DIR$/util/basicSplitRule.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/basicSplitRule.h" afterPath="$PROJECT_DIR$/util/basicSplitRule.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/componentSplitRule.cpp" afterPath="$PROJECT_DIR$/util/componentSplitRule.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/componentSplitRule.h" afterPath="$PROJECT_DIR$/util/componentSplitRule.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/createShape.cpp" afterPath="$PROJECT_DIR$/util/createShape.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/generalRule.cpp" afterPath="$PROJECT_DIR$/util/generalRule.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/generalRule.h" afterPath="$PROJECT_DIR$/util/generalRule.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/nestedBasicSplitRule.cpp" afterPath="$PROJECT_DIR$/util/nestedBasicSplitRule.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/nestedBasicSplitRule.h" afterPath="$PROJECT_DIR$/util/nestedBasicSplitRule.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/repeatRule.cpp" afterPath="$PROJECT_DIR$/util/repeatRule.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/repeatRule.h" afterPath="$PROJECT_DIR$/util/repeatRule.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/scopeRule.cpp" afterPath="$PROJECT_DIR$/util/scopeRule.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/scopeRule.h" afterPath="$PROJECT_DIR$/util/scopeRule.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,100 +46,25 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="scopeRule.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util/scopeRule.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="43" column="25" lean-forward="false" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="467" column="39" lean-forward="true" selection-start-line="467" selection-start-column="39" selection-end-line="467" selection-end-column="39" />
+            <state relative-caret-position="250">
+              <caret line="117" column="33" lean-forward="false" selection-start-line="117" selection-start-column="33" selection-end-line="117" selection-end-column="33" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
                 <element signature="e#108#157#0" expanded="true" />
                 <element signature="e#221#237#0" expanded="true" />
-                <marker date="1489499157099" expanded="true" signature="17835:18155" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stl_stack.h" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/include/c++/4.9/bits/stl_stack.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stl_queue.h" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/include/c++/4.9/bits/stl_queue.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stl_deque.h" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/include/c++/4.9/bits/stl_deque.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="922" column="0" lean-forward="false" selection-start-line="922" selection-start-column="0" selection-end-line="922" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stl_vector.h" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/include/c++/4.9/bits/stl_vector.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="256" column="0" lean-forward="false" selection-start-line="256" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="regex_compiler.tcc" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/include/c++/4.9/bits/regex_compiler.tcc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="330" column="0" lean-forward="false" selection-start-line="330" selection-start-column="0" selection-end-line="330" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_rules.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmake-build-debug/test_rules.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="57" lean-forward="true" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rule.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shape/rule.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="40" column="4" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="23" />
-              <folding>
-                <element signature="e#1#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workflow.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shape/workflow.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="20" column="79" lean-forward="false" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="79" />
-              <folding>
-                <element signature="e#135#149#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,8 +73,72 @@
       <file leaf-file-name="workflow.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shape/workflow.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="378">
+              <caret line="21" column="56" lean-forward="false" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+              <folding>
+                <element signature="e#43#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workflow.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shape/workflow.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="43" />
+              <folding>
+                <element signature="e#135#149#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nestedBasicSplitRule.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util/nestedBasicSplitRule.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="26" column="67" lean-forward="false" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nestedBasicSplitRule.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util/nestedBasicSplitRule.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generalRule.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util/generalRule.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="createShape.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util/createShape.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="7" column="86" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="86" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="createShape.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util/createShape.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -176,6 +155,8 @@
       <find>regex_ma</find>
       <find>[DEBUG-1]</find>
       <find>tracker</find>
+      <find>std::cout</find>
+      <find>generalRule</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -209,26 +190,26 @@
         <option value="$PROJECT_DIR$/util/generalProcessor.h" />
         <option value="$PROJECT_DIR$/parser/y_io_2.h" />
         <option value="$PROJECT_DIR$/shape/function.h" />
-        <option value="$PROJECT_DIR$/util/generalRule.h" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/test_rules.txt" />
         <option value="$PROJECT_DIR$/util/generalRule.cpp" />
-        <option value="$PROJECT_DIR$/shape/workflow.h" />
-        <option value="$PROJECT_DIR$/shape/workflow.cpp" />
-        <option value="$PROJECT_DIR$/util/componentSplitRule.h" />
-        <option value="$PROJECT_DIR$/util/componentSplitRule.cpp" />
-        <option value="$PROJECT_DIR$/util/repeatRule.h" />
-        <option value="$PROJECT_DIR$/util/repeatRule.cpp" />
-        <option value="$PROJECT_DIR$/util/basicSplitRule.h" />
-        <option value="$PROJECT_DIR$/util/nestedBasicSplitRule.h" />
-        <option value="$PROJECT_DIR$/util/nestedBasicSplitRule.cpp" />
-        <option value="$PROJECT_DIR$/util/basicSplitRule.cpp" />
-        <option value="$PROJECT_DIR$/util/createShape.h" />
         <option value="$PROJECT_DIR$/util/createShape.cpp" />
-        <option value="$PROJECT_DIR$/util/scopeRule.h" />
+        <option value="$PROJECT_DIR$/util/repeatRule.cpp" />
+        <option value="$PROJECT_DIR$/util/componentSplitRule.cpp" />
+        <option value="$PROJECT_DIR$/util/basicSplitRule.cpp" />
         <option value="$PROJECT_DIR$/util/scopeRule.cpp" />
         <option value="$PROJECT_DIR$/shape/rule.h" />
         <option value="$PROJECT_DIR$/shape/rule.cpp" />
-        <option value="$PROJECT_DIR$/cmake-build-debug/test_rules.txt" />
+        <option value="$PROJECT_DIR$/shape/workflow.h" />
+        <option value="$PROJECT_DIR$/util/generalRule.h" />
+        <option value="$PROJECT_DIR$/util/basicSplitRule.h" />
+        <option value="$PROJECT_DIR$/util/componentSplitRule.h" />
+        <option value="$PROJECT_DIR$/util/createShape.h" />
+        <option value="$PROJECT_DIR$/util/repeatRule.h" />
+        <option value="$PROJECT_DIR$/util/scopeRule.h" />
+        <option value="$PROJECT_DIR$/util/nestedBasicSplitRule.cpp" />
+        <option value="$PROJECT_DIR$/util/nestedBasicSplitRule.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/shape/workflow.cpp" />
       </list>
     </option>
   </component>
@@ -345,6 +326,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cmake-build-debug/CMakeFiles" />
       <recent name="$PROJECT_DIR$/cmake-build-debug" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -574,12 +556,12 @@
       <updated>1488914741091</updated>
       <workItem from="1488914745066" duration="956000" />
       <workItem from="1488924919960" duration="8150000" />
-      <workItem from="1489185203418" duration="126866000" />
+      <workItem from="1489185203418" duration="146534000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135972000" />
+    <option name="totallyTimeSpent" value="155640000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="50" y="-11" width="1871" height="1092" extended-state="6" />
@@ -617,31 +599,15 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>467</line>
+          <line>454</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shape/nonterminalShape.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/componentSplitRule.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -658,7 +624,6 @@
             <element signature="e#0#19#0" expanded="true" />
             <element signature="e#108#157#0" expanded="true" />
             <element signature="e#221#237#0" expanded="true" />
-            <marker date="1489499157099" expanded="true" signature="17835:18155" ph="..." />
           </folding>
         </state>
       </provider>
@@ -683,14 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="271" column="13" lean-forward="false" selection-start-line="271" selection-start-column="13" selection-end-line="271" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_rules.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -775,136 +732,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/componentSplitRule.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/componentSplitRule.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/repeatRule.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/repeatRule.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding>
-            <element signature="e#65#82#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/c++/4.9/ext/new_allocator.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="119" column="6" lean-forward="false" selection-start-line="119" selection-start-column="6" selection-end-line="119" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/generalRule.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/generalRule.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/createShape.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="102" lean-forward="false" selection-start-line="27" selection-start-column="102" selection-end-line="27" selection-end-column="102" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/createShape.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/scopeRule.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/scopeRule.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="58" column="4" lean-forward="false" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/basicSplitRule.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/basicSplitRule.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="13" selection-end-column="36" />
-          <folding>
-            <element signature="e#73#90#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/nestedBasicSplitRule.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/nestedBasicSplitRule.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="45" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="45" />
-          <folding>
-            <element signature="e#126#143#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/4.9/bits/stl_list.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="532" column="6" lean-forward="false" selection-start-line="532" selection-start-column="6" selection-end-line="532" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -925,14 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shape/nonterminalShape.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shape/nonterminalShape.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -941,47 +764,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shape/rule.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shape/rule.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="40" column="4" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="23" />
-          <folding>
-            <element signature="e#1#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/c++/4.9/bits/shared_ptr_base.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="922" column="0" lean-forward="false" selection-start-line="922" selection-start-column="0" selection-end-line="922" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shape/workflow.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shape/workflow.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="20" column="79" lean-forward="false" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="79" />
-          <folding>
-            <element signature="e#135#149#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1005,14 +792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="256" column="0" lean-forward="false" selection-start-line="256" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/test_rules.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="57" lean-forward="true" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
           <folding />
         </state>
       </provider>
@@ -1041,15 +820,218 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_rules.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/test_rules.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_rules2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/componentSplitRule.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="95" lean-forward="false" selection-start-line="26" selection-start-column="80" selection-end-line="26" selection-end-column="95" />
+          <folding>
+            <element signature="e#2#33#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/repeatRule.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="37" column="84" lean-forward="false" selection-start-line="37" selection-start-column="78" selection-end-line="37" selection-end-column="84" />
+          <folding>
+            <element signature="e#2#25#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shape/nonterminalShape.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/4.9/bits/stl_list.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="532" column="6" lean-forward="false" selection-start-line="532" selection-start-column="6" selection-end-line="532" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/scopeRule.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="89" lean-forward="false" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="89" />
+          <folding>
+            <element signature="e#1#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shape/rule.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shape/rule.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/basicSplitRule.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/basicSplitRule.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="e#2#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/generalRule.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/componentSplitRule.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/repeatRule.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/scopeRule.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="43" column="25" lean-forward="false" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/nestedBasicSplitRule.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/nestedBasicSplitRule.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="26" column="67" lean-forward="false" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/createShape.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shape/workflow.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="43" />
+          <folding>
+            <element signature="e#135#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/generalRule.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/createShape.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="86" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shape/workflow.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="56" lean-forward="false" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+          <folding>
+            <element signature="e#43#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/test_rules2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="467" column="39" lean-forward="true" selection-start-line="467" selection-start-column="39" selection-end-line="467" selection-end-column="39" />
+        <state relative-caret-position="250">
+          <caret line="117" column="33" lean-forward="false" selection-start-line="117" selection-start-column="33" selection-end-line="117" selection-end-column="33" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
             <element signature="e#108#157#0" expanded="true" />
             <element signature="e#221#237#0" expanded="true" />
-            <marker date="1489499157099" expanded="true" signature="17835:18155" ph="..." />
           </folding>
         </state>
       </provider>

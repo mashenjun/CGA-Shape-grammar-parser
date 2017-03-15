@@ -20,7 +20,7 @@ public:
 
     componentSplitRule(const std::string &target, const std::string &param);
 
-    void apply() override;
+    void apply() override ;
 
 };
 

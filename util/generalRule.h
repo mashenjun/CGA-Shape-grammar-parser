@@ -9,9 +9,16 @@
 #include <map>
 
 class generalRule {
-
+protected:
+    std::string operationType ;
 public:
-    virtual void apply() = 0;
+    virtual void apply()=0;
+
+    generalRule(const std::string &operationType);
+
+    const std::string &getOperationType() const;
+
+    void setOperationType(const std::string &operationType);
 
 };
 

@@ -3,9 +3,9 @@
 //
 
 #include "createShape.h"
-
+#include <iostream>
 void createShape::apply() {
-
+    std::cout<< "[" <<this->operationType<<"]" << "[" <<this->param<< "]" <<std::endl;
 }
 
 const std::string &createShape::getParam() const {
@@ -25,7 +25,9 @@ void createShape::setTerminal(bool terminal) {
     createShape::terminal = terminal;
 }
 
-createShape::createShape(const std::string &param, bool terminal) : param(param), terminal(terminal) {}
+createShape::createShape( const std::string &param, bool terminal) : generalRule(
+        "create_shape"), param(param), terminal(terminal) {}
+
 
 
 

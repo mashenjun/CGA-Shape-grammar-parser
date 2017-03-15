@@ -1,0 +1,20 @@
+1: room-->OP-Comp("sidefaces"){ Wall_N | Wall_S | Wall_E | Wall_W | Wall_U | Floor }
+2: Wall_N-->I("wall.obj")
+3: Wall_N-->I("wall.obj")
+4: Wall_N-->I("wall.obj")
+5: Wall_N-->I("wall.obj")
+6: Wall_U-->I("ceiling.obj")
+7: Floor-->OP-Subdiv("X",0.7,0.3){ sleep_area | study_area }
+8: sleep_area-->OP-Subdiv("X",0.7,0.3){ sleep_area_1 | sleep_area_2 }:0.5
+	     -->OP-Subdiv("Y",0.7,0.3){ sleep_area_1 | sleep_area_2 }:0.5
+9: sleep_area_1-->OP-Subdiv("X",0.5,0.5){ Bed | Bed }:0.5
+	       -->OP-Subdiv("Y",0.5,0.5){ Bed | Bed }:0.5
+10: sleep_area_2-->I("sofa.obj")
+11: Bed-->I("bed.obj")
+12: study_area-->OP-Subdiv("X",0.3,0.7){ study_area_1 | study_area_2 }:0.5
+              -->OP-Subdiv("Y",0.3,0.7){ study_area_1 | study_area_2 }:0.5
+13: study_area_1-->I("pctable.obj")
+14: study_area_2-->OP-Subdiv("X",0.5,0.5){ Table | Chair }:0.5
+                -->OP-Subdiv("Y",0.5,0.5){ Table | Chair }:0.5
+15: Table-->I("table.obj")
+16: Chair-->I("chair.obj")

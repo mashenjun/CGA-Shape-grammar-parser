@@ -1,13 +1,14 @@
 
 
 #include "repeatRule.h"
-
+#include <iostream>
 void repeatRule::apply() {
-
+    std::cout<< "[" <<this->operationType<<"]" << "[" <<this->direction<< "]" << "[";
+    for (auto i: this->params)
+        std::cout << i << ' ';
+    std::cout<<"]"<<"["<<this->target<<"]"<<std::endl;
 }
 
-repeatRule::repeatRule(const std::string &target, const std::string &direction, const std::vector<std::string> &params)
-        : target(target), direction(direction), params(params) {}
 
 const std::string &repeatRule::getTarget() const {
     return target;
@@ -32,4 +33,8 @@ const std::vector<std::string> &repeatRule::getParams() const {
 void repeatRule::setParams(const std::vector<std::string> &params) {
     repeatRule::params = params;
 }
+
+repeatRule::repeatRule(const std::string &target, const std::string &direction,
+                       const std::vector<std::string> &params) : generalRule("repeat"), target(target),
+                                                                 direction(direction), params(params) {}
 

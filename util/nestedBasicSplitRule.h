@@ -11,12 +11,16 @@
 
 class nestedBasicSplitRule:public generalRule{
 private:
+//    std::vector<generalRule> targets;
     std::vector<std::shared_ptr<generalRule>> targets;
     std::string direction;
     std::vector<std::string> params;
 
 public:
     void apply() override;
+
+    nestedBasicSplitRule(const std::vector<std::shared_ptr<generalRule>> &targets, const std::string &direction,
+                         const std::vector<std::string> &params);
 
     const std::vector<std::shared_ptr<generalRule>> &getTargets() const;
 
@@ -30,8 +34,6 @@ public:
 
     void setParams(const std::vector<std::string> &params);
 
-    nestedBasicSplitRule(const std::vector<std::shared_ptr<generalRule>> &targets, const std::string &direction,
-                         const std::vector<std::string> &params);
 };
 
 
