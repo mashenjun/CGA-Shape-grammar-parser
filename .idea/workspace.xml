@@ -13,27 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bf341686-bd73-4e2c-abab-356afaeaf921" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CGA-Shape-Parser.bundle" afterPath="$PROJECT_DIR$/CGA-Shape-Parser.bundle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CGA_Shape" afterPath="$PROJECT_DIR$/cmake-build-debug/CGA_Shape" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CGA_Shape.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CGA_Shape.dir/CXX.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CGA_Shape.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CGA_Shape.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CGA_Shape.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CGA_Shape.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shape/rule.cpp" afterPath="$PROJECT_DIR$/shape/rule.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shape/rule.h" afterPath="$PROJECT_DIR$/shape/rule.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shape/workflow.cpp" afterPath="$PROJECT_DIR$/shape/workflow.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/basicSplitRule.cpp" afterPath="$PROJECT_DIR$/util/basicSplitRule.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/basicSplitRule.h" afterPath="$PROJECT_DIR$/util/basicSplitRule.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/componentSplitRule.cpp" afterPath="$PROJECT_DIR$/util/componentSplitRule.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/componentSplitRule.h" afterPath="$PROJECT_DIR$/util/componentSplitRule.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/createShape.cpp" afterPath="$PROJECT_DIR$/util/createShape.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/generalRule.cpp" afterPath="$PROJECT_DIR$/util/generalRule.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/generalRule.h" afterPath="$PROJECT_DIR$/util/generalRule.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/nestedBasicSplitRule.cpp" afterPath="$PROJECT_DIR$/util/nestedBasicSplitRule.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/nestedBasicSplitRule.h" afterPath="$PROJECT_DIR$/util/nestedBasicSplitRule.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/repeatRule.cpp" afterPath="$PROJECT_DIR$/util/repeatRule.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/repeatRule.h" afterPath="$PROJECT_DIR$/util/repeatRule.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/scopeRule.cpp" afterPath="$PROJECT_DIR$/util/scopeRule.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -556,16 +535,15 @@
       <updated>1488914741091</updated>
       <workItem from="1488914745066" duration="956000" />
       <workItem from="1488924919960" duration="8150000" />
-      <workItem from="1489185203418" duration="146534000" />
+      <workItem from="1489185203418" duration="146955000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155640000" />
+    <option name="totallyTimeSpent" value="156061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="50" y="-11" width="1871" height="1092" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32045928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -578,7 +556,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282365" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39874738" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39874738" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
